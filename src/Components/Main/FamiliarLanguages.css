@@ -1,0 +1,33 @@
+#language{
+    width: 100%;
+    height: 60vh;
+}
+
+#language #lang-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#language #lang-list .btn{
+    position: absolute;
+    /* display: none; */
+}
+
+#language #lang-list .left{
+    left: 0;
+}
+
+#language #lang-list .right{
+    right: 0;
+}
+
+#language #lang-list p{
+    font-size: 40px;
+    color: #892cdc;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+#basic-intro{
+    padding-top: 4rem;
+    height: 100vh;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(120deg,
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url('../../images/intro-bg.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
