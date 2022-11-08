@@ -6,6 +6,7 @@ import Breaker from './Components/UI/Breaker'
 import AboutMe from './Components/Main/AboutMe';
 import FamiliarLanguages from './Components/Main/FamiliarLanguages';
 import Footer from './Components/Footer/Footer';
+import Skills from './Components/Main/Skills';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Mainframe>
         <Introduction></Introduction>
         <AboutMe/>
+        <Skills/>
         {/* <SectionBreaker/>
         <FamiliarLanguages/>  */}
         <Footer/>

@@ -9,7 +9,7 @@ const Introduction =()=>{
             </h1>
             <Breaker className="w-75"/>
             <p className='fs-2 lead w-75 text-center'>
-                Computer programming student at Seneca College. My goal is to become a <span title="Yes, I know it's hard :(" className='text-warning fw-bold'>full-stack developer</span>
+                I love creating web components. My goal is to become a <span title="Yes, I know it's hard :(" className='text-warning fw-bold'>full-stack developer</span>
             </p>
             {/* <div id="intro-text" className='w-auto text-lg-start text-center me-0 me-lg-3 ms-0 ms-lg-4 mt-lg-0 mt-5 text-light'>
                 <h1>

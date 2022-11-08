@@ -1,0 +1,23 @@
+.section{
+    margin-top: 5rem ;
+    margin-bottom: 5rem;
+}
+
+#comfortable{
+    border-radius: 3rem 0 4rem 0;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: #0fd850 0.2rem solid; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#experience{
+    border-radius: 0 3rem 0 4rem;
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    border: #09b1db 0.2rem solid; 
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#learning{
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
