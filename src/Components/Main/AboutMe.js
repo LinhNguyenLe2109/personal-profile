@@ -19,7 +19,7 @@ const AboutMe = () =>{
                 <div id='detail' className='col-lg-3 text-lg-start text-center'>
                     <h3 className='fw-bold fs-2'>Detail:</h3>
                     <Breaker className='w-25 mx-auto mx-lg-0'/>
-                    <ul className='px-0'>
+                    <ul className='px-0 list-unstyled'>
                         <li><strong>Full Name:</strong><br/>Linh Nguyên Lê</li>
                         <li><strong>Age:</strong><br/>20</li>
                         <li><strong>Phone number:</strong><br/>(647)-562-7948</li>

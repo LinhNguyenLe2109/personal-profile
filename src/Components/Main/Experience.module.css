@@ -1,0 +1,21 @@
+.section{
+    margin-top: 5rem;
+}
+
+#active-desc{
+    border-left: 4px solid #cc9c18;
+    margin-left: 1rem;
+    padding-left: 1rem
+}
+
+
+#list button{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 576px) {
+    #list{
+        overflow-x: scroll;
+    }
+    
+  }

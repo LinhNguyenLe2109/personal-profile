@@ -1,0 +1,13 @@
+#footer{
+    height: 80vh;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(120deg,
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        /* bottom, image */
+        url('../../images/footer-bg.jpg') center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
