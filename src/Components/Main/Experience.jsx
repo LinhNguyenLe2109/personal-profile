@@ -7,27 +7,11 @@ import styles from "./Experience.module.css";
 function Experience() {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
   const workplaces = [
-    {
+    { 
+      // capital project and student census
       place: "TDSB",
       position: "Junior Web Developer",
-      description: ["abc", "cdf"],
-      timeStart: new Date(2022, 7, 22),
-      timeEnd: new Date(2022, 11, 23),
-    },
-    {
-      place: "cdf",
-      position: "Junior Web Developer",
-      description: ["abc", "cdf", "abc", "cdf"],
-      timeStart: new Date(2022, 7, 22),
-      timeEnd: new Date(2022, 11, 23),
-    },
-    {
-      place: "abc",
-      position: "Junior Web Developer",
-      description: [
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem illum nostrum nam rerum nisi at dolorem cumque, laudantium dicta! Error molestiae quia reiciendis delectus, fugit exercitationem vero labore vitae dolorum culpa ab, reprehenderit molestias odio, incidunt nostrum magni fuga aperiam sequi voluptatibus maxime. Possimus eaque ",
-        "cdf",
-      ],
+      description: ["Updated, modified existing webpages and created new pages based on requests", "Communicated, collaborated with team to fix bugs, to understand the requestor's needs, to get assistance from the senior", "Developed a module to display data from OracleDB and SQL server", "Helped and delivered two front-end projects in fast manner"],
       timeStart: new Date(2022, 7, 22),
       timeEnd: new Date(2022, 11, 23),
     },
@@ -55,6 +39,23 @@ function Experience() {
       timeStart: new Date(2021, 3, 10),
       timeEnd: new Date(2022, 7, 1),
     },
+    {
+      place: "Yummy Korean Restaurant",
+      position: "Crew member",
+      description: ["abc", "cdf", "abc", "cdf"],
+      timeStart: new Date(2021, 8, 27),
+      timeEnd: new Date(2022, 0, 6),
+    },
+    {
+      place: "SmartBE English Center",
+      position: "English Teaching Assistant",
+      description: [
+        "Used, maintained, set up computers, audio-visual equipment like projectors and speakers, and other equipment. Assisted students, teachers with hardware and software usage", "Distributed tests and homework, graded results using answer Excel 2016 to assess students’ performance and report back to the center and their parents.", "Tutored and assisted children in class, reinforced learning concepts presented by teachers. Addressed any concerns from students and their parents on daily basis."
+      ],
+      timeStart: new Date(2020, 8, 27),
+      timeEnd: new Date(2021, 6, 18),
+    },
+    
   ];
   const [currentActiveDesc, setCurrentActiveDesc] = useState(workplaces[0]);
   const convertDateToString = (date) => {
