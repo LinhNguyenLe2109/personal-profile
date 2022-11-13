@@ -3,7 +3,7 @@ import Breaker from '../UI/Breaker'
 
 const Introduction =()=>{
     return (
-        <section id={styles['basic-intro']} className={`d-flex flex-column pb-3 container-fluid justify-content-center align-items-center text-light`}>
+        <section id='basic-intro' className={`d-flex flex-column pb-3 container-fluid justify-content-center align-items-center text-light ${styles['basic-intro']}`}>
             <h1 className='w-50 text-center'>
                 Hey, I'm <span className='text-info'>Linh Nguyen Le</span> but you can call me <span className='text-warning' title="I promise this is the last time I change my nickname :)">Weiss</span>
             </h1>

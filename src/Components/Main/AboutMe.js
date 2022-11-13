@@ -7,7 +7,7 @@ import Breaker from '../UI/Breaker'
 
 const AboutMe = () =>{
     return (
-        <section id={styles['about-me']} className="container-fluid">
+        <section id='about-me' className="container-fluid">
             <MainHeading>About Me</MainHeading>
             <Breaker className="w-50 mx-auto" ></Breaker>
             <div id={styles.information} className="container text-light px-3 py-5 mx-auto mb-4 rounded-3 d-lg-flex col-lg-9 justify-content-around align-items-center">

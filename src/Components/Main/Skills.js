@@ -143,7 +143,7 @@ function Skills() {
         })
     }
   return (
-    <section className={`${styles.section} container-fluid bg-secondary pb-4 text-warning pt-3`}>
+    <section id="skills" className={`${styles.section} container-fluid bg-secondary pb-4 text-warning pt-3`}>
         <MainHeading>Skills</MainHeading>
         <Breaker className = 'w-75 mx-auto'/>
         <div id={styles.comfortable} className='pb-4 text-light col-md-9 col mt-4'>

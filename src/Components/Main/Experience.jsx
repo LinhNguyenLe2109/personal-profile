@@ -56,7 +56,7 @@ function Experience() {
     setCurrentActiveDesc(workplaces.find(workplaces=>workplaces.place === id))
   }
   return (
-    <section className={`container-fluid ${styles.section}`}>
+    <section id="experience" className={`container-fluid ${styles.section}`}>
         <MainHeading>I've worked for</MainHeading>
         <Breaker className='w-75 mx-auto'></Breaker>
         <div id = {styles.experience} className="col-xl-7 col-9 mx-auto d-lg-flex d-block border border-success border-5 p-3 rounded-4 bg-dark text-light">
