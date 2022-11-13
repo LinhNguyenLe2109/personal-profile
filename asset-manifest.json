@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personal-profile/static/css/main.3b9e7051.css",
+    "main.js": "/personal-profile/static/js/main.70200fd6.js",
+    "static/media/profile-img.png": "/personal-profile/static/media/profile-img.fb049c3bf1657259d045.png",
+    "static/media/footer-bg.jpg": "/personal-profile/static/media/footer-bg.b67bed4eaf55b3b243d3.jpg",
+    "static/media/intro-bg.jpg": "/personal-profile/static/media/intro-bg.326a14a547e0d6a9120c.jpg",
+    "static/media/Linh_Nguyen_Le_resume.pdf": "/personal-profile/static/media/Linh_Nguyen_Le_resume.df00b6ead934a8c35b83.pdf",
+    "index.html": "/personal-profile/index.html",
+    "main.3b9e7051.css.map": "/personal-profile/static/css/main.3b9e7051.css.map",
+    "main.70200fd6.js.map": "/personal-profile/static/js/main.70200fd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b9e7051.css",
+    "static/js/main.70200fd6.js"
+  ]
+}
