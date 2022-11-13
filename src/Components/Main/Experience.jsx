@@ -42,7 +42,7 @@ function Experience() {
     {
       place: "Yummy Korean Restaurant",
       position: "Crew member",
-      description: ["abc", "cdf", "abc", "cdf"],
+      description: ["Communicated effectively with staff members to increase productivity", "Made sure the customers have positive experience and feedback.", "Worked in physical-demanding environment that required the ability to multitask"],
       timeStart: new Date(2021, 8, 27),
       timeEnd: new Date(2022, 0, 6),
     },
@@ -103,7 +103,7 @@ function Experience() {
           </p>
           <ul>
             {currentActiveDesc.description.map((desc, idx) => (
-              <li key={idx}>{desc}</li>
+              <li key={idx} className="mb-3">{desc}</li>
             ))}
           </ul>
         </div>
