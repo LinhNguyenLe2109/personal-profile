@@ -7,11 +7,16 @@ import styles from "./Experience.module.css";
 function Experience() {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
   const workplaces = [
-    { 
+    {
       // capital project and student census
       place: "TDSB",
       position: "Junior Web Developer",
-      description: ["Updated, modified existing webpages and created new pages based on requests", "Communicated, collaborated with team to fix bugs, to understand the requestor's needs, to get assistance from the senior", "Developed a module to display data from OracleDB and SQL server", "Helped and delivered two front-end projects in fast manner"],
+      description: [
+        "Updated, modified existing webpages and created new pages based on requests",
+        "Communicated, collaborated with team to fix bugs, to understand the requestor's needs, to get assistance from the senior",
+        "Developed a module to display data from OracleDB and SQL server",
+        "Helped and delivered two front-end projects in fast manner",
+      ],
       timeStart: new Date(2022, 7, 22),
       timeEnd: new Date(2022, 11, 23),
     },
@@ -42,7 +47,11 @@ function Experience() {
     {
       place: "Yummy Korean Restaurant",
       position: "Crew member",
-      description: ["Communicated effectively with staff members to increase productivity", "Made sure the customers have positive experience and feedback.", "Worked in physical-demanding environment that required the ability to multitask"],
+      description: [
+        "Communicated effectively with staff members to increase productivity",
+        "Made sure the customers have positive experience and feedback.",
+        "Worked in physical-demanding environment that required the ability to multitask",
+      ],
       timeStart: new Date(2021, 8, 27),
       timeEnd: new Date(2022, 0, 6),
     },
@@ -50,12 +59,13 @@ function Experience() {
       place: "SmartBE English Center",
       position: "English Teaching Assistant",
       description: [
-        "Used, maintained, set up computers, audio-visual equipment like projectors and speakers, and other equipment. Assisted students, teachers with hardware and software usage", "Distributed tests and homework, graded results using answer Excel 2016 to assess students’ performance and report back to the center and their parents.", "Tutored and assisted children in class, reinforced learning concepts presented by teachers. Addressed any concerns from students and their parents on daily basis."
+        "Used, maintained, set up computers, audio-visual equipment like projectors and speakers, and other equipment. Assisted students, teachers with hardware and software usage",
+        "Distributed tests and homework, graded results using answer Excel 2016 to assess students’ performance and report back to the center and their parents.",
+        "Tutored and assisted children in class, reinforced learning concepts presented by teachers. Addressed any concerns from students and their parents on daily basis.",
       ],
       timeStart: new Date(2020, 8, 27),
       timeEnd: new Date(2021, 6, 18),
     },
-    
   ];
   const [currentActiveDesc, setCurrentActiveDesc] = useState(workplaces[0]);
   const convertDateToString = (date) => {
@@ -103,7 +113,9 @@ function Experience() {
           </p>
           <ul>
             {currentActiveDesc.description.map((desc, idx) => (
-              <li key={idx} className="mb-3">{desc}</li>
+              <li key={idx} className="mb-3">
+                {desc}
+              </li>
             ))}
           </ul>
         </div>
